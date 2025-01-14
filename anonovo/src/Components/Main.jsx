@@ -4,10 +4,10 @@ import S from './style.module.scss'
 export default function Main(){
     return(
         <main>
-            <img src={imgfundo} alt="Imagem escrito 'Ano Novo 2025' adornado de luzinhas amarelas nas letras e estrelas nos lados." />
-            <section className={S.felicitcoes}>
-                <h3>Boas Festas!!!</h3>
-                <h2>Felicidades!!!</h2>
+            <img id='backgroundimg' src={imgfundo} alt="Imagem escrito 'Ano Novo 2025' adornado de luzinhas amarelas nas letras e estrelas nos lados." />
+            <section id='secfelicitacoes' className={S.felicitacoes}>
+                <h3 id='Mh3' >Boas Festas!!!</h3>
+                <h2 id='Mh2' >Felicidades!!!</h2>
                 <section className={S.text}>
                     <p>Em 2025, vamos juntos programar,</p>
                     <p>Com mais código limpo e muito para alcançar!</p>
