@@ -7,7 +7,7 @@ export default function Header(){
     return(
         <header>
            <img src={logo} alt="champanhe" />
-           <nav>
+           <nav className='head'>
                 <ul>
                     <li class="l1"><a>Paz </a></li>
                     <li class="l2"><a>Saúde</a></li>
