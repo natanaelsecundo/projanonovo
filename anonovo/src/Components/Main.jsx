@@ -5,10 +5,10 @@ export default function Main(){
     return(
         <main>
             <img src={imgfundo} alt="Imagem escrito 'Ano Novo 2025' adornado de luzinhas amarelas nas letras e estrelas nos lados." />
-            <section className={S.conteinerBoasFestas}>
+            <section className={S.felicitcoes}>
                 <h3>Boas Festas!!!</h3>
                 <h2>Felicidades!!!</h2>
-                <section className={S.conteinerPoema}>
+                <section className={S.text}>
                     <p>Em 2025, vamos juntos programar,</p>
                     <p>Com mais código limpo e muito para alcançar!</p>
                     <p>Que o ano novo traga só funções de felicidade,</p>
