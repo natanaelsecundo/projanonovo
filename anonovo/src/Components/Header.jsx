@@ -9,9 +9,9 @@ export default function Header(){
            <img src={logo} alt="champanhe" />
            <nav>
                 <ul>
-                    <li> Paz</li>
-                    <li> Saúde</li>
-                    <li>Alegria</li>
+                    <li class="l1"><a>Paz </a></li>
+                    <li class="l2"><a>Saúde</a></li>
+                    <li class="l3"><a>Alegria</a></li>
                 </ul>
            </nav>
         </header>
