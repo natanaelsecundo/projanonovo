@@ -16,7 +16,6 @@ export default function Footer(){
         <a href="https://www.instagram.com/vainaweb/" target="_blank">
           <img src={insta} id="logo"  alt="Logo do instagram"></img>
         </a>
-         
           </footer>
     )
 }
